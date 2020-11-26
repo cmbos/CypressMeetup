@@ -26,7 +26,7 @@ Afstrepen todo-item
     click element  xpath://label[text()='${todo-item}']//preceding-sibling::input
 
 Openen todo-mvc website
-    open browser  aboutL:blank  chrome
+    open browser  about:blank  chrome
     maximize browser window
     go to  http://todomvc-app-for-testing.surge.sh/
 
